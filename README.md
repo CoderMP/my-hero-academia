@@ -1,5 +1,9 @@
 # My Hero Academia - Pro Hero Roster
 
+![build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![build-version](https://img.shields.io/badge/build%20version-1.0-blue.svg)
+![license](https://img.shields.io/badge/license-MIT-green.svg)
+
 ## Overview
 A Pro Hero Roster for the characters of the My Hero Academia Anime & Manga
 
