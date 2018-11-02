@@ -1,0 +1,14 @@
+<div *ngIf="hero">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>rank:</span> {{hero.rank}}</div>
+  <div><span>Real Name:</span> {{hero.real_name}}</div>
+  <div><span>Quirk:</span> {{hero.quirk}}</div>
+  <!-- <br/>
+  <div><label>Hero Rank: <input [(ngModel)]="hero.rank" placeholder="hero rank"/></label></div>
+  <div><label>Hero Name: <input [(ngModel)]="hero.hero_name" placeholder="hero name"/></label></div>
+  <div><label>Real Rank: <input [(ngModel)]="hero.real_name" placeholder="real rank"/></label></div>
+  <div><label>Quirk: <input [(ngModel)]="hero.quirk" placeholder="hero quirk"/></label></div> -->
+  <br/>
+  <button (click)="goBack()">Back</button>
+  <button class="btn btn-primary" (click)="save()">Save</button>
+</div>
